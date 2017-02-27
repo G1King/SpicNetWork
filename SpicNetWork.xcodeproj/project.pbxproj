@@ -21,6 +21,7 @@
 		6FE99A811E5E6F39003E4514 /* SpicNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A801E5E6F39003E4514 /* SpicNetTool.m */; };
 		6FE99A841E5E6F55003E4514 /* SpicResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A831E5E6F55003E4514 /* SpicResult.m */; };
 		6FE99A871E5E7181003E4514 /* NSString+StingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A861E5E7181003E4514 /* NSString+StingTool.m */; };
+		6FF0F4AA1E600EBA007D0B3F /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0F4A91E600EBA007D0B3F /* test.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		6FE99A831E5E6F55003E4514 /* SpicResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpicResult.m; sourceTree = "<group>"; };
 		6FE99A851E5E7181003E4514 /* NSString+StingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StingTool.h"; sourceTree = "<group>"; };
 		6FE99A861E5E7181003E4514 /* NSString+StingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StingTool.m"; sourceTree = "<group>"; };
+		6FF0F4A91E600EBA007D0B3F /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
 		90637D9F20840832E491CE8E /* Pods-SpicNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpicNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpicNetWork/Pods-SpicNetWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 				6FE99A7F1E5E6F39003E4514 /* SpicNetTool.h */,
 				6FE99A801E5E6F39003E4514 /* SpicNetTool.m */,
 				6FE99A821E5E6F55003E4514 /* SpicResult.h */,
+				6FF0F4A91E600EBA007D0B3F /* test.pdf */,
 				6FE99A831E5E6F55003E4514 /* SpicResult.m */,
 				6FE99A671E5E6592003E4514 /* SpicNetWorkManager.h */,
 				6FE99A681E5E6592003E4514 /* SpicNetWorkManager.m */,
@@ -298,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF0F4AA1E600EBA007D0B3F /* test.pdf in Resources */,
 				6FE99A441E5E650A003E4514 /* LaunchScreen.storyboard in Resources */,
 				6FE99A411E5E650A003E4514 /* Assets.xcassets in Resources */,
 				6FE99A3F1E5E650A003E4514 /* Main.storyboard in Resources */,

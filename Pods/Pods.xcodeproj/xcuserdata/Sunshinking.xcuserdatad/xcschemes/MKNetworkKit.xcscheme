@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CFF837C5077E7C3D8E61342CD39F1186'
-               BlueprintName = 'Pods-SpicNetWork'
+               BlueprintIdentifier = '5E9A3DE24F3157BFBC43EC1B4E6F8176'
+               BlueprintName = 'MKNetworkKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-SpicNetWork.a'>
+               BuildableName = 'libMKNetworkKit.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

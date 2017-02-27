@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CFF837C5077E7C3D8E61342CD39F1186'
-               BlueprintName = 'Pods-SpicNetWork'
+               BlueprintIdentifier = 'A68DAAC752A776232DA02224CF8E7F1A'
+               BlueprintName = 'Reachability'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-SpicNetWork.a'>
+               BuildableName = 'libReachability.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
