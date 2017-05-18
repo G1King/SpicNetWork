@@ -35,7 +35,7 @@ static const NSString * APP_ID = @"1149757723";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-  
+    NSLog(@"%@====",@"s");
     NSURL *url=[NSURL URLWithString: @"http://127.0.0.1/001.png"];
     NSURLRequest * req = [NSURLRequest requestWithURL:url];
     NSURLSession * session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
