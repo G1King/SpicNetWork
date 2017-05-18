@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "ViewController.h"
+#import "SpicHeader.h"
+#define IsNilString(text,replace) ((![text isEqualToString:@""] && text) ? text : replace)
+@interface AppDelegate ()<UIAlertViewDelegate>
 
 @end
 
@@ -17,10 +19,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString * str1 = @"";
+    NSString * str2 = @"2.0.0";
+    NSLog(@"%@",IsNilString(str1, str2));
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
     
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
     
+    YTKNetworkConfig * config = [YTKNetworkConfig sharedConfig];
+    config.baseUrl = @"http://www.spicu.com.cn/spicu/api/";
+    NSString * str = @"www.spicu.com.cn&20123124414&wdwadsa";
+    if ([str containsString:@"www.spicu.com.cn"]) {
+//        NSLog(@"ysdsadasd");
+    }
     return YES;
+    
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

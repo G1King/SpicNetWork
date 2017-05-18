@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420096131E9531D700B29538 /* CustomUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420096121E9531D700B29538 /* CustomUpdateView.m */; };
+		427797511E9A2E9800DD586B /* SpicNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 427797501E9A2E9800DD586B /* SpicNetWorkTool.m */; };
+		42A937C51E838A420011B8A2 /* SpicInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A937C41E838A420011B8A2 /* SpicInputView.m */; };
+		42BE0B711E8B6669007959E6 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BE0B701E8B6669007959E6 /* UIView+Util.m */; };
+		42C65AD51E724E3E00B178E6 /* MBProgressHUD+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C65AD41E724E3E00B178E6 /* MBProgressHUD+XZ.m */; };
 		6EAE8B1350DAB296995EA66D /* libPods-SpicNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01437159D965EF8516B915E8 /* libPods-SpicNetWork.a */; };
+		6FA5C5321E690C9000C27E46 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5C5311E690C9000C27E46 /* RuntimeKit.m */; };
 		6FE99A361E5E650A003E4514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A351E5E650A003E4514 /* main.m */; };
 		6FE99A391E5E650A003E4514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A381E5E650A003E4514 /* AppDelegate.m */; };
 		6FE99A3C1E5E650A003E4514 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A3B1E5E650A003E4514 /* ViewController.m */; };
@@ -21,7 +27,6 @@
 		6FE99A811E5E6F39003E4514 /* SpicNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A801E5E6F39003E4514 /* SpicNetTool.m */; };
 		6FE99A841E5E6F55003E4514 /* SpicResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A831E5E6F55003E4514 /* SpicResult.m */; };
 		6FE99A871E5E7181003E4514 /* NSString+StingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99A861E5E7181003E4514 /* NSString+StingTool.m */; };
-		6FF0F4AA1E600EBA007D0B3F /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0F4A91E600EBA007D0B3F /* test.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +48,20 @@
 
 /* Begin PBXFileReference section */
 		01437159D965EF8516B915E8 /* libPods-SpicNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpicNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		420096111E9531D700B29538 /* CustomUpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUpdateView.h; sourceTree = "<group>"; };
+		420096121E9531D700B29538 /* CustomUpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUpdateView.m; sourceTree = "<group>"; };
+		4277974F1E9A2E9800DD586B /* SpicNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpicNetWorkTool.h; sourceTree = "<group>"; };
+		427797501E9A2E9800DD586B /* SpicNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpicNetWorkTool.m; sourceTree = "<group>"; };
+		42A937C31E838A420011B8A2 /* SpicInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpicInputView.h; sourceTree = "<group>"; };
+		42A937C41E838A420011B8A2 /* SpicInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpicInputView.m; sourceTree = "<group>"; };
+		42BE0B6F1E8B6669007959E6 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		42BE0B701E8B6669007959E6 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		42C65AD31E724E3E00B178E6 /* MBProgressHUD+XZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XZ.h"; sourceTree = "<group>"; };
+		42C65AD41E724E3E00B178E6 /* MBProgressHUD+XZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XZ.m"; sourceTree = "<group>"; };
+		42C65AD61E724E8F00B178E6 /* SpicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpicHeader.h; sourceTree = "<group>"; };
 		4B7F70AA49A9C100BB5297D3 /* Pods-SpicNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpicNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpicNetWork/Pods-SpicNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA5C5301E690C9000C27E46 /* RuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeKit.h; sourceTree = "<group>"; };
+		6FA5C5311E690C9000C27E46 /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
 		6FE99A311E5E650A003E4514 /* SpicNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpicNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE99A351E5E650A003E4514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FE99A371E5E650A003E4514 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,7 +88,6 @@
 		6FE99A831E5E6F55003E4514 /* SpicResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpicResult.m; sourceTree = "<group>"; };
 		6FE99A851E5E7181003E4514 /* NSString+StingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StingTool.h"; sourceTree = "<group>"; };
 		6FE99A861E5E7181003E4514 /* NSString+StingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StingTool.m"; sourceTree = "<group>"; };
-		6FF0F4A91E600EBA007D0B3F /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
 		90637D9F20840832E491CE8E /* Pods-SpicNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpicNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpicNetWork/Pods-SpicNetWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,15 +156,27 @@
 				6FE99A3B1E5E650A003E4514 /* ViewController.m */,
 				6FE99A851E5E7181003E4514 /* NSString+StingTool.h */,
 				6FE99A861E5E7181003E4514 /* NSString+StingTool.m */,
+				42C65AD31E724E3E00B178E6 /* MBProgressHUD+XZ.h */,
+				42C65AD41E724E3E00B178E6 /* MBProgressHUD+XZ.m */,
 				6FE99A7F1E5E6F39003E4514 /* SpicNetTool.h */,
 				6FE99A801E5E6F39003E4514 /* SpicNetTool.m */,
+				42C65AD61E724E8F00B178E6 /* SpicHeader.h */,
+				42BE0B6F1E8B6669007959E6 /* UIView+Util.h */,
+				42BE0B701E8B6669007959E6 /* UIView+Util.m */,
 				6FE99A821E5E6F55003E4514 /* SpicResult.h */,
-				6FF0F4A91E600EBA007D0B3F /* test.pdf */,
+				420096111E9531D700B29538 /* CustomUpdateView.h */,
+				420096121E9531D700B29538 /* CustomUpdateView.m */,
 				6FE99A831E5E6F55003E4514 /* SpicResult.m */,
 				6FE99A671E5E6592003E4514 /* SpicNetWorkManager.h */,
 				6FE99A681E5E6592003E4514 /* SpicNetWorkManager.m */,
 				6FE99A7C1E5E6896003E4514 /* SpicDataModel.h */,
 				6FE99A7D1E5E6896003E4514 /* SpicDataModel.m */,
+				6FA5C5301E690C9000C27E46 /* RuntimeKit.h */,
+				6FA5C5311E690C9000C27E46 /* RuntimeKit.m */,
+				42A937C31E838A420011B8A2 /* SpicInputView.h */,
+				42A937C41E838A420011B8A2 /* SpicInputView.m */,
+				4277974F1E9A2E9800DD586B /* SpicNetWorkTool.h */,
+				427797501E9A2E9800DD586B /* SpicNetWorkTool.m */,
 				6FE99A3D1E5E650A003E4514 /* Main.storyboard */,
 				6FE99A401E5E650A003E4514 /* Assets.xcassets */,
 				6FE99A421E5E650A003E4514 /* LaunchScreen.storyboard */,
@@ -262,6 +291,7 @@
 				TargetAttributes = {
 					6FE99A301E5E650A003E4514 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 27JV59WYGX;
 						ProvisioningStyle = Automatic;
 					};
 					6FE99A491E5E650A003E4514 = {
@@ -301,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FF0F4AA1E600EBA007D0B3F /* test.pdf in Resources */,
 				6FE99A441E5E650A003E4514 /* LaunchScreen.storyboard in Resources */,
 				6FE99A411E5E650A003E4514 /* Assets.xcassets in Resources */,
 				6FE99A3F1E5E650A003E4514 /* Main.storyboard in Resources */,
@@ -378,9 +407,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FE99A3C1E5E650A003E4514 /* ViewController.m in Sources */,
+				42C65AD51E724E3E00B178E6 /* MBProgressHUD+XZ.m in Sources */,
 				6FE99A391E5E650A003E4514 /* AppDelegate.m in Sources */,
 				6FE99A841E5E6F55003E4514 /* SpicResult.m in Sources */,
+				6FA5C5321E690C9000C27E46 /* RuntimeKit.m in Sources */,
+				42A937C51E838A420011B8A2 /* SpicInputView.m in Sources */,
+				42BE0B711E8B6669007959E6 /* UIView+Util.m in Sources */,
+				420096131E9531D700B29538 /* CustomUpdateView.m in Sources */,
 				6FE99A361E5E650A003E4514 /* main.m in Sources */,
+				427797511E9A2E9800DD586B /* SpicNetWorkTool.m in Sources */,
 				6FE99A691E5E6592003E4514 /* SpicNetWorkManager.m in Sources */,
 				6FE99A811E5E6F39003E4514 /* SpicNetTool.m in Sources */,
 				6FE99A7E1E5E6896003E4514 /* SpicDataModel.m in Sources */,
@@ -534,6 +569,7 @@
 			baseConfigurationReference = 4B7F70AA49A9C100BB5297D3 /* Pods-SpicNetWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27JV59WYGX;
 				INFOPLIST_FILE = SpicNetWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LD.spic.SpicNetWork;
@@ -546,6 +582,7 @@
 			baseConfigurationReference = 90637D9F20840832E491CE8E /* Pods-SpicNetWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27JV59WYGX;
 				INFOPLIST_FILE = SpicNetWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LD.spic.SpicNetWork;

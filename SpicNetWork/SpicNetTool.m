@@ -17,7 +17,7 @@
 #import "SpicDataModel.h"
 #import "NSString+StingTool.h"
 //#import "Base64codeFunc.h"
-#import "MBProgressHUD.h"
+#import "MBProgressHUD+XZ.h"
 #import "SpicResult.h"
 static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
@@ -102,18 +102,20 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
     //    [theBaseParam addEntriesFromDictionary:params];
     
     NSMutableDictionary *theBaseParam = [NSMutableDictionary dictionaryWithDictionary:params];
-    NSString *mastring = [NSString stringWithFormat:@"{\"a\":\"%@\",\"v\":\"%@\",\"ip\":\"%@\"}",[[UIDevice currentDevice] systemName],[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"],[NSString whatismyipdotcom]];
     
-    NSData *data = [mastring dataUsingEncoding:NSUTF8StringEncoding];
+//    NSString *mastring = [NSString stringWithFormat:@"{\"a\":\"%@\",\"v\":\"%@\",\"ip\":\"%@\"}",[[UIDevice currentDevice] systemName],[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"],[NSString whatismyipdotcom]];
+//    
+//    NSData *data = [mastring dataUsingEncoding:NSUTF8StringEncoding];
+//    
+//    data = [self DESEncrypt:data WithKey:@"1qaz@WSX"];
+//    NSString *string = [self convertDataToHexStr:data];
+//    [theBaseParam setObject:string forKey:@"appToken"];
     
-    data = [self DESEncrypt:data WithKey:@"1qaz@WSX"];
-    NSString *string = [self convertDataToHexStr:data];
-    [theBaseParam setObject:string forKey:@"appToken"];
     //    NSMutableDictionary *finalParam = [self getEncriptParam:theBaseParam];
     
     MBProgressHUD *hud = nil;
     if (view) {
-//        hud = [MBProgressHUD showProgressFromView:view];
+        hud = [MBProgressHUD showProgressFromView:view];
     }
     
    SpicNetWorkManager *request = nil;
